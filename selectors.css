@@ -1,3 +1,8 @@
+/* added because the links in browser were appearing purple */
+a {
+    color:blue;
+}
+
 /* 1. The header element should have a 1px, goldenrod border. */
 header {
     border: 1px solid goldenrod;
@@ -8,13 +13,11 @@ header li{
     list-style: none;
     display: inline;
     padding: 0px 10px 0px 10px;
-
 }
 
 /* 3. Ensure that the navigation is semantically marked as such (i.e. wrap it in the correct HTML tag). 
     lines 13 & 19*/
 
-    
 /* 4. Any text in an element with class "disabled" should be colored grey, unless it is inside an anchor tag. If inside an anchor, it should be colored purple. */
 
 .disabled {
@@ -25,19 +28,23 @@ a .disabled {
     color: purple;
 }
 
-
-
 /* 5. Any text inside an element with a class of "active" should be colored yellow. */
 .active {
     color: yellow;
 }
 
 /* 6. Section elements should be contained within an article element. 
-    lines 20 & 79*/
+    lines 22 & 81*/
 
 /* 7. There are two missing closing tags in this document. Make sure you add them back in.
-    </h4> tag on Line 70 
-    </a> tag on Line 89*/
+    <h4>I'm red's sister</h4> tag on Line 73 
+    <a href="#">
+        <span class="footer-link">
+            <span class="disabled">
+                Privacy Policy
+            </span>
+        </span>
+    </a>tag on Line 93*/
 
 /* 8. Make the "I'm red" text colored red. */
 .parent > div > div {
@@ -64,7 +71,7 @@ a .disabled {
 }
 
 /* 13. Elements with a class of promo should have bold text that is also colored gold. */
-.promo .disabled {
+.promo {
     color: gold;
     font-weight: bold;
 }
