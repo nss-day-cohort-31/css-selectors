@@ -1,7 +1,3 @@
-a:visited{
-    color: blue;
-}
-
 /* 1. The header element should have a 1px, goldenrod border. */
 header {
     border: 1px solid goldenrod;
@@ -21,7 +17,7 @@ header li{
     
 /* 4. Any text in an element with class "disabled" should be colored grey, unless it is inside an anchor tag. If inside an anchor, it should be colored purple. */
 
-.disabled, .disabled:visited {
+.disabled {
     color: grey;
 }
 
