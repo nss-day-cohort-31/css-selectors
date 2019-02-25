@@ -18,13 +18,12 @@ header li{
 /* 3. Ensure that the navigation is semantically marked as such (i.e. wrap it in the correct HTML tag). 
     lines 13 & 19*/
 
-/* 4. Any text in an element with class "disabled" should be colored grey, unless it is inside an anchor tag. If inside an anchor, it should be colored purple. */
-
+/* 4. Any text in an element with class "disabled" should be colored grey, unless it is an attribute of an anchor tag. If it is an attribute of an anchor tag, it should be colored purple. */
 .disabled {
     color: grey;
 }
 
-a .disabled {
+a.disabled {
     color: purple;
 }
 
